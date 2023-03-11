@@ -1,0 +1,77 @@
+@media screen and (max-width: 575px) {
+  /* Toàn cục */
+  h1 {
+    font-size: 20px;
+  }
+
+  /* Navbar */
+  .navbar {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: 1fr;
+    text-align: start;
+  }
+
+  .navbar div {
+    border: none;
+  }
+
+  .avartar {
+    display: none;
+  }
+
+  /* About */
+  #personal-info h1,
+  #personal-info ul,
+  #personal-info div {
+    padding-left: 1%;
+  }
+
+  /* Job-info */
+  .items-job {
+    margin: 10px;
+    width: 80%;
+    padding-bottom: 50px;
+  }
+
+  /* Certificate */
+  .item1-row,
+  .item-1 {
+    border-bottom: 1px solid #d6c08d;
+  }
+
+  .item-2 {
+    border-left: none;
+  }
+
+  /* Projects */
+  .content-project {
+    width: 95%;
+    margin: 10px;
+  }
+
+  .flex {
+    flex-direction: column;
+    padding: 1rem;
+    line-height: 2;
+  }
+
+  .flex div:last-child {
+    flex-direction: column;
+  }
+
+  .flex span {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  /* Footer */
+  #footer i {
+    font-size: 20px;
+  }
+
+  #footer li {
+    font-size: 13px;
+    margin-right: 20px;
+  }
+}

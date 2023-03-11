@@ -1,0 +1,256 @@
+/* CSS cho toàn cục */
+* {
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+:root {
+  --color-light: rgb(231 231 231);
+  --color-white-gray: #eeeeee;
+  --color-icon: rgb(57, 57, 199);
+  --color-icon-gray: #9c9c9c;
+}
+
+.bg-grey {
+  background: #f7f7f7;
+}
+
+h6 {
+  font-weight: 600;
+}
+
+li::marker {
+  color: blue;
+  list-style-type: circle;
+  font-size: 24px;
+}
+
+/* Banner */
+#banner {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.banner-title {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+i {
+  color: var(--color-icon);
+}
+
+/* Navbar */
+a:link {
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+a:active {
+  color: yellow;
+}
+
+#nav-bar i {
+  color: blue;
+}
+
+/* About */
+#personal-info ul {
+  list-style-type: none;
+}
+
+#personal-info span {
+  display: block;
+}
+
+#personal-info span > li {
+  display: inline;
+}
+
+#personal-info {
+  background-color: var(--color-light);
+}
+
+/* Job-info */
+.title-job {
+  display: grid;
+  grid-template-columns: 75% 25%;
+  grid-template-rows: 1fx;
+  justify-items: center;
+  align-items: center;
+  /* position: relative; */
+}
+
+.title-job i {
+  font-size: 30px;
+  color: var(--color-icon-gray);
+}
+
+.title-content em {
+  font-size: 13px;
+}
+
+.items-job {
+  background-color: var(--color-white-gray);
+  position: relative;
+}
+
+.items-job p {
+  font-size: 13px;
+}
+
+.content-enjoy div {
+  text-align: center;
+}
+
+.content-enjoy i {
+  font-size: 25px;
+  color: blue;
+  border: 1px solid blue;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.content-enjoy div > p {
+  font-size: 11px;
+}
+
+.content-skill div > p {
+  margin: 0;
+}
+
+.content-skill span {
+  background: #199cdb;
+  display: inline-block;
+  height: 3px;
+  margin-right: 10px;
+  width: 45px;
+}
+
+/* Certificate */
+.items {
+  font-family: sans-serif;
+  font-size: 13px;
+}
+
+.items h6 {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+/* Projects */
+.content-project {
+  font-size: 13px;
+}
+
+.content-project div:first-of-type {
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+.content-project div:nth-of-type(2) i {
+  color: black;
+  font-style: normal;
+}
+
+table {
+  line-height: 2;
+}
+
+td {
+  vertical-align: top;
+}
+
+table td:first-child {
+  width: 25%;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+}
+
+#footer i {
+  margin-right: 10px;
+  vertical-align: sub;
+}
+
+#footer li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+/* Nâng cao */
+/* Mục 9 */
+.hidden {
+  display: none;
+}
+
+.personal-input {
+  background-color: var(--color-light);
+}
+
+.email {
+  font-size: 16px;
+  width: 100%;
+  border: 1px solid var(--color-icon-gray);
+  border-radius: 8px;
+  transition: 0.5s;
+  outline: none;
+}
+
+.email:hover,
+.email:focus {
+  border-color: #0d6994;
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.38);
+}
+
+.personal-input div > label {
+  font-size: 13px;
+  color: var(--color-icon-gray);
+}
+
+.button {
+  margin-top: 5%;
+  display: block;
+  border-radius: 8px;
+  transition: 0.5s;
+  outline: none;
+}
+
+.button:hover,
+.button:focus {
+  box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.38);
+}
+
+/* Mục 10 */
+.view-more {
+  position: absolute;
+  top: 70px;
+  left: 10%;
+  z-index: 10;
+}
+
+.btn-view {
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(197, 230, 52);
+}

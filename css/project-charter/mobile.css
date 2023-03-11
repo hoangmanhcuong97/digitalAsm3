@@ -1,0 +1,92 @@
+@media screen and (max-width: 575px) {
+  .container {
+    padding: 5px 0 5px 0;
+  }
+
+  .decriptions {
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: 87%;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .content-goals {
+    display: grid;
+    grid-template-columns: 85%;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(167, 165, 165);
+    padding: 15px 0;
+  }
+
+  .content-goals i {
+    font-size: 30px;
+    justify-self: center;
+    align-self: start;
+  }
+
+  .content-team {
+    display: grid;
+    grid-template-columns: 85%;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 0;
+  }
+
+  .content-team i {
+    font-size: 30px;
+    justify-self: center;
+    align-self: start;
+  }
+
+  .content-timeline {
+    display: grid;
+    grid-template-columns: 85%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-timeline p:first-child {
+    font-size: 25px;
+    align-self: start;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    background-color: rgb(176, 147, 202);
+  }
+
+  .content-timeline p:last-child {
+    border-bottom: 1px dashed rgb(91, 192, 184);
+  }
+
+  .scopes .content {
+    display: grid;
+    grid-template-columns: 85%;
+    gap: 20px;
+  }
+
+  .content-scopes {
+    margin: 0 0 10px 20px;
+  }
+
+  .content-primary {
+    display: grid;
+    grid-template-columns: 85%;
+    justify-content: center;
+  }
+
+  .content-primary i {
+    font-size: 30px;
+    justify-self: center;
+  }
+
+  .exit {
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 5px;
+  }
+}

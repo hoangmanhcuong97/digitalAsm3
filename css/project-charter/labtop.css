@@ -1,0 +1,108 @@
+@media screen and (min-width: 992px) {
+  .container {
+    padding: 5px 0 15px 0;
+  }
+
+  .decriptions {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 50% repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: 60% 40%;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .timeline {
+    grid-row: 1/3;
+    grid-column: 3/4;
+  }
+
+  .content-goals {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(167, 165, 165);
+  }
+
+  .content-goals i {
+    font-size: 25px;
+    grid-row: 1/3;
+    justify-self: center;
+    align-self: start;
+    padding-top: 10%;
+  }
+
+  .content-team {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding-right: 5%;
+  }
+
+  .content-team i {
+    font-size: 25px;
+    grid-row: 1/3;
+    justify-self: center;
+    align-self: start;
+    padding-top: 15%;
+  }
+
+  .content-timeline {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 1fr 2fr;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .content-timeline p:first-child {
+    font-size: 25px;
+    grid-row: 1/3;
+    justify-self: center;
+    align-self: start;
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: 10%;
+    background-color: rgb(176, 147, 202);
+  }
+
+  .content-timeline p:last-child {
+    border-bottom: 1px dashed rgb(91, 192, 184);
+  }
+
+  .scopes .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+
+  .content-scopes {
+    margin: 0px 20px 20px 20px;
+  }
+
+  .content-primary {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-right: 10%;
+  }
+
+  .content-primary i {
+    font-size: 25px;
+    justify-self: center;
+    padding-top: 10%;
+  }
+
+  .exit {
+    font-size: 20px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+  }
+}
